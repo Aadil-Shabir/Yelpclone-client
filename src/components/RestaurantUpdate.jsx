@@ -21,7 +21,7 @@ const RestaurantUpdate = () => {
       setPriceRange(response.data.data.restaurant.price_range);
     };
     fetchData();
-  }, []);
+  }, [id]);
 
   const submitHandler = async (e) => {
     e.preventDefault();

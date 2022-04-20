@@ -23,7 +23,7 @@ const RestaurantDetailPage = () => {
     } catch (err) {
       console.log(err);
     }
-  }, []);
+  }, [id, setSelectedRestaurant]);
 
   // console.log("Seleced", selectedRestaurant);
 

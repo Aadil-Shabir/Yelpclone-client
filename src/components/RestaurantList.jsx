@@ -20,7 +20,7 @@ const RestaurantList = () => {
     } catch (err) {
       console.log(err);
     }
-  }, []);
+  }, [setRestaurants]);
 
   const updateHandler = (e, id) => {
     e.stopPropagation();
