@@ -1,5 +1,7 @@
 import axios from "axios";
 
+// API for production
+
 export default axios.create({
-    baseURL: "http://localhost:4000/api/v1/restaurants"
+    baseURL: "https://dry-plains-08452.herokuapp.com/api/v1/restaurants"
 })
